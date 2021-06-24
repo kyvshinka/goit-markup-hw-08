@@ -1,0 +1,17 @@
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 32px;
+  transition: background-color var(--animation-duration) var(--animation-timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    outline: none;
+  }
+}
