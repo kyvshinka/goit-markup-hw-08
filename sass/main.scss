@@ -8,17 +8,8 @@
 @import './base/container';
 @import './base/section';
 
-// LAYOUT
-@import './layout/header';
-@import './layout/hero';
-@import './layout/benefits';
-@import './layout/projects';
-@import './layout/team';
-@import './layout/clients';
-@import './layout/footer';
-@import './layout/portfolio';
-
 // COMPONENTS
+@import './components/mobile-menu';
 @import './components/btn';
 @import './components/logo';
 @import './components/menu';
@@ -29,3 +20,13 @@
 @import './components/backdrop';
 @import './components/modal-window';
 @import './components/modal-footer';
+
+// LAYOUT
+@import './layout/header';
+@import './layout/hero';
+@import './layout/benefits';
+@import './layout/projects';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/portfolio';
