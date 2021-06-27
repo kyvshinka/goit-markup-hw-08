@@ -69,12 +69,12 @@
 
 // 0 - 1199
 @media screen and (max-width: 1199px) {
-  .modal-footer__input {
-    margin-bottom: 20px;
-  }
-
   .modal-footer {
     flex-direction: column;
+
+    &__input {
+      margin-bottom: 20px;
+    }
   }
 }
 
@@ -88,9 +88,11 @@
 // 1200+
 @media screen and (min-width: 1200px) {
   .modal-footer {
-    &__title {
-      align-items: flex-end;
-    }
+    align-items: flex-end;
+
+    // &__title {
+    //   align-items: flex-end;
+    // }
 
     &__input-wrapper {
       display: flex;

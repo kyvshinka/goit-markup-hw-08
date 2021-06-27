@@ -13,10 +13,6 @@
     color: var(--contrast-color);
     margin-bottom: 20px;
   }
-
-  &__social-media {
-    text-align: center;
-  }
 }
 
 // 0 - 767
@@ -51,6 +47,10 @@
 @media screen and (max-width: 1199px) {
   .footer {
     text-align: center;
+
+    &__social-media {
+      text-align: center;
+    }
   }
 }
 

@@ -451,7 +451,7 @@
                     </li>
                 </ul>
             </div>
-            
+
       <!-- Footer form -->
             <form class="footer__form">
                 <div class="modal-footer">
@@ -474,58 +474,63 @@
 
     <!-- End footer form -->
 
-    <!-- Backdrop -->
+
     </footer>
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button type="button" class="modal__close-btn" data-modal-close>
-                <svg class="modal__close-icon">
-                    <use href="./images/sprite.svg#close"></use>
-                </svg>
-            </button>
-        <!-- Modal form -->
-            <form action="#" class="modal__form">
-                <p class="modal__header">Оставьте свои данные, мы вам перезвоним</p>
-                <label class="modal__field">
-                    Имя
-                    <span class="modal__input-wrapper">
-                        <input type="text" name="user-name" class="modal__input" minlength="2" required placeholder=" ">
-                        <svg class="modal__icons">
-                            <use href="./images/sprite.svg#modal-person"></use>
-                        </svg>
-                    </span>
-                </label>
-                <label class="modal__field">
-                    Телефон
-                    <span class="modal__input-wrapper">
-                        <input type="tel" name="user-phone" class="modal__input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="093-111-22-33" placeholder=" ">
-                        <svg class="modal__icons">
-                            <use href="./images/sprite.svg#modal-phone"></use>
-                        </svg>
-                    </span>
-                </label>
-                <label class="modal__field">
-                    Почта
-                    <span class="modal__input-wrapper">
-                        <input type="email" name="user-email" class="modal__input" placeholder=" ">
-                        <svg class="modal__icons">
-                            <use href="./images/sprite.svg#modal-email"></use>
-                        </svg>
-                    </span>
-                </label>
-                <label class="modal__field">
-                    Комментарий
-                    <textarea name="user-comment" class="modal__comment" placeholder="Введите текст"></textarea>
-                </label>
-                <div class="modal__policy">
-                    <input type="checkbox" name="user-policy" class="modal__checkbox visually-hidden" id="checkbox-policy" required>
-                    <label for="checkbox-policy" class="modal__policy-title">Соглашаюсь с рассылкой и принимаю <a class="modal__policy-link" href=""> Условия договора</a></label>
-                </div>
-                <button type="submit" class="modal__btn btn">Отправить</button>
-            </form>
-            <!-- End modal form -->
-        </div>
+<!--END FOOTER-->
+
+<!-- BACKDROP -->
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="modal__close-btn" data-modal-close>
+            <svg class="modal__close-icon">
+                <use href="./images/sprite.svg#close"></use>
+            </svg>
+        </button>
+<!-- MODAL FORM -->
+        <form action="#" class="modal__form">
+            <p class="modal__header">Оставьте свои данные, мы вам перезвоним</p>
+            <label class="modal__field">
+                Имя
+                <span class="modal__input-wrapper">
+                    <input type="text" name="user-name" class="modal__input" minlength="2" required placeholder=" ">
+                    <svg class="modal__icons">
+                        <use href="./images/sprite.svg#modal-person"></use>
+                    </svg>
+                </span>
+            </label>
+            <label class="modal__field">
+                Телефон
+                <span class="modal__input-wrapper">
+                    <input type="tel" name="user-phone" class="modal__input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="093-111-22-33" placeholder=" ">
+                    <svg class="modal__icons">
+                        <use href="./images/sprite.svg#modal-phone"></use>
+                    </svg>
+                </span>
+            </label>
+            <label class="modal__field">
+                Почта
+                <span class="modal__input-wrapper">
+                    <input type="email" name="user-email" class="modal__input" placeholder=" ">
+                    <svg class="modal__icons">
+                        <use href="./images/sprite.svg#modal-email"></use>
+                    </svg>
+                </span>
+            </label>
+            <label class="modal__field">
+                Комментарий
+                <textarea name="user-comment" class="modal__comment" placeholder="Введите текст"></textarea>
+            </label>
+            <div class="modal__policy">
+                <input type="checkbox" name="user-policy" class="modal__checkbox visually-hidden" id="checkbox-policy" required>
+                <label for="checkbox-policy" class="modal__policy-title">Соглашаюсь с рассылкой и принимаю <a class="modal__policy-link" href=""> Условия договора</a></label>
+            </div>
+            <button type="submit" class="modal__btn btn">Отправить</button>
+        </form>
+<!-- END MODAL FORM -->
     </div>
+</div>
+<!-- END BACKDROP -->
+
 <script src="./js/menu.js"></script>
 <script src="./js/modal.js"></script>
 </body>

@@ -6,7 +6,7 @@
     width: 100vw;
     height: 100vh;
     background-color: var(--contrast-color);
-
+    z-index: 10;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
