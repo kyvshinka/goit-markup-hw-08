@@ -2,12 +2,6 @@
   font-style: normal;
 }
 
-.address__item {
-  &:not(:last-child) {
-    margin-bottom: 9px;
-  }
-}
-
 .address__link {
   font-style: normal;
   font-size: 14px;
@@ -27,5 +21,27 @@
   &:focus {
     color: var(--accent-color);
     outline: none;
+  }
+}
+
+// 768 - 1199
+// @media screen and (min-w) {
+// }
+
+//  0 - 1199
+@media screen and (max-width: 1199px) {
+  .address__item {
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+// 1200+
+@media screen and (min-width: 1200px) {
+  .address__item {
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
   }
 }

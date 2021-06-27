@@ -12,11 +12,29 @@
 
   &__title {
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--contrast-color);
     margin-bottom: 30px;
+  }
+}
+
+// 0 - 1199
+@media screen and (max-width: 1199px) {
+  .hero {
+    &__title {
+      font-size: 26px;
+      line-height: 1.6;
+    }
+  }
+}
+
+// 1200+
+@media screen and (min-width: 1200px) {
+  .hero {
+    &__title {
+      font-size: 44px;
+      line-height: 1.36;
+    }
   }
 }
