@@ -32,10 +32,6 @@
 }
 
 .portfolio {
-  // &__item {
-
-  // }
-
   &__link {
     transition: box-shadow var(--animation-duration) var(--animation-timing-function);
 
@@ -122,9 +118,9 @@
       margin-bottom: 30px;
     }
 
-    &__img {
-      width: 450px;
-    }
+    // &__img {
+    //   width: 450px;
+    // }
   }
 }
 
@@ -139,9 +135,9 @@
       flex-basis: calc((100% - 60px) / 2);
     }
 
-    &__img {
-      width: 354px;
-    }
+    // &__img {
+    //   width: 354px;
+    // }
   }
 }
 
@@ -177,8 +173,8 @@
       flex-basis: calc((100% - 90px) / 3);
     }
 
-    &__img {
-      width: 370px;
-    }
+    // &__img {
+    //   width: 370px;
+    // }
   }
 }
