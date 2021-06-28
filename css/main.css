@@ -1285,10 +1285,6 @@ body {
   overflow: hidden;
 }
 
-.portfolio__img {
-  height: 294px;
-}
-
 .portfolio__overlay {
   position: absolute;
   top: 0;
