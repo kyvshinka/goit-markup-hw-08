@@ -12,11 +12,6 @@
     border-radius: 0px 0px 4px 4px;
   }
 
-  // &__img {
-  //   width: 450px;
-  //   height: 460px;
-  // }
-
   &__wrapper {
     padding-top: 30px;
     padding-right: 122px;
@@ -47,7 +42,7 @@
 // 0 - 767
 @media screen and (max-width: 767px) {
   .team {
-    &__item {
+    &__item:not(:last-child) {
       margin-bottom: 30px;
     }
   }
@@ -56,11 +51,6 @@
 // 768+
 @media screen and (min-width: 768px) {
   .team {
-    // &__img {
-    //   width: 354px;
-    //   height: 374px;
-    // }
-
     &__wrapper {
       padding-right: 74px;
       padding-left: 74px;
@@ -91,11 +81,6 @@
     &__item {
       flex-basis: calc((100% - 120px) / 4);
     }
-
-    // &__img {
-    //   width: 270px;
-    //   height: 260px;
-    // }
 
     &__wrapper {
       padding: 30px 32px;

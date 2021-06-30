@@ -33,6 +33,13 @@
   }
 }
 
+// 0 - 767
+@media screen and (max-width: 767px) {
+  .benefits__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
 // 768+
 @media screen and (min-width: 768px) {
   .benefits__list {
@@ -54,13 +61,6 @@
       margin-top: 30px;
       margin-left: 30px;
     }
-  }
-}
-
-// 0 - 1199
-@media screen and (max-width: 1199px) {
-  .benefits__description {
-    margin-bottom: 30px;
   }
 }
 
